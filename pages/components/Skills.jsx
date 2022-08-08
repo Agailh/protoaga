@@ -11,7 +11,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/html5.png" alt="/" width="64px" height="64px" />
+                <Image src="/../public/assets/html5.png" alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>HTML</h3>
@@ -21,7 +21,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/css-icon.png" alt="/" width="64px" height="64px" />
+                <Image src="/../public/assets/css-icon.png" alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>CSS</h3>
@@ -31,7 +31,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/bootstrap-logo.png" alt="/" width="64px" height="64px" />
+                <Image src="/../public/assets/bootstrap-logo.png" alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Bootstrap</h3>
@@ -41,7 +41,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/javascript.png" alt="/" width="64px" height="64px" />
+                <Image src="/../public/assets/javascript.png" alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Javascript</h3>
@@ -51,7 +51,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/nextjs_icon_132160.png" alt="/" width="64px" height="64px" />
+                <Image src="/../public/assets/nextjs_icon_132160.png" alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>NextJs</h3>
@@ -61,7 +61,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/tailwind-css-icon.png" alt="/" width="64px" height="64px" />
+                <Image src="/../public/assets/tailwind-css-icon.png" alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Tailwind CSS</h3>
@@ -71,7 +71,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/TFL.png" alt="/" width="64px" height="64px" />
+                <Image src="/../public/assets/TFL.png" alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Tensorflow</h3>
@@ -81,7 +81,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/phaser.png" alt="/" width="64px" height="64px" />
+                <Image src="/../public/assets/phaser.png" alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Phaser</h3>
