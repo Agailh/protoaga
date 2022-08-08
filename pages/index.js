@@ -19,7 +19,6 @@ export default function Home() {
       <Main />
       <About />
       <Skills />
-      <Project />
     </div>
   );
 }
