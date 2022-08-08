@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import ProfilePic from "../../public/Assets/pp.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -26,7 +27,7 @@ const Navbar = () => {
   return (
     <div className={Shadow ? "fixed w-full h-20 shadow-xl z[100]" : "fixed w-full h-20 z[100]"}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src="/pp.png" alt="/" width="125" height="50" />
+        <Image src={ProfilePic} alt="/" width="125" height="50" />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
