@@ -1,5 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import HtmlIcn from "../../public/Assets/html5.png";
+import CssIcn from "../../public/Assets/css-icon.png";
+import BootstrapIcn from "../../public/Assets/bootstrap-logo.png";
+import JsIcn from "../../public/Assets/javascript.png";
+import NextjsIcn from "../../public/Assets/nextjs_icon_132160.png";
+import TailIcn from "../../public/Assets/tailwind-css-icon.png";
+import TFLIcn from "../../public/Assets/TFL.png";
+import PhaserlIcn from "../../public/Assets/phaser.png";
 
 const Skills = () => {
   return (
@@ -11,7 +19,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/../public/assets/html5.png" alt="HTML 5" width="64px" height="64px" />
+                <Image src={HtmlIcn} alt="HTML 5" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>HTML</h3>
@@ -21,7 +29,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/../public/assets/css-icon.png" alt="/" width="64px" height="64px" />
+                <Image src={CssIcn} alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>CSS</h3>
@@ -31,7 +39,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/../public/assets/bootstrap-logo.png" alt="/" width="64px" height="64px" />
+                <Image src={BootstrapIcn} alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Bootstrap</h3>
@@ -41,7 +49,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/../public/assets/javascript.png" alt="/" width="64px" height="64px" />
+                <Image src={JsIcn} alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Javascript</h3>
@@ -51,7 +59,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/../public/assets/nextjs_icon_132160.png" alt="/" width="64px" height="64px" />
+                <Image src={NextjsIcn} alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>NextJs</h3>
@@ -61,7 +69,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/../public/assets/tailwind-css-icon.png" alt="/" width="64px" height="64px" />
+                <Image src={TailIcn} alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Tailwind CSS</h3>
@@ -71,7 +79,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/../public/assets/TFL.png" alt="/" width="64px" height="64px" />
+                <Image src={TFLIcn} alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Tensorflow</h3>
@@ -81,7 +89,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">
-                <Image src="/../public/assets/phaser.png" alt="/" width="64px" height="64px" />
+                <Image src={PhaserlIcn} alt="/" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Phaser</h3>
