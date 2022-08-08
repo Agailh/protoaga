@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Proj1 from "../../public/Assets/Projects/Project_1g.gif";
-import Proj2 from "../../public/Assets/Projects/Project_2g.gif";
+import Proj2 from "../../public/Assets/Projects/Project_2G.gif";
 import Proj3 from "../../public/Assets/Projects/Project_3g.gif";
 
 const Project = () => {
