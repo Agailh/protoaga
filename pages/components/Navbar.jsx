@@ -4,10 +4,24 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import ProfilePic from "../../public/Assets/pp.png";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [Shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [linkColor, setLinkColor] = useState("#1f2937");
+  const router = useRouter();
+
+  useEffect(() => {
+    if (router.asPath === "/Project1") {
+      setNavBg("transparent");
+      setLinkColor("#ecf0f3");
+    } else {
+      setNavBg("#ecf0f3");
+      setLinkColor("#1f2937");
+    }
+  }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -25,8 +39,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={Shadow ? "fixed w-full h-20 shadow-xl z[100]" : "fixed w-full h-20 z[100]"}>
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+    <div className={Shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z[100] "}>
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-[#ecf0f3]">
         <Image src={ProfilePic} alt="/" width="125" height="50" />
         <div>
           <ul className="hidden md:flex">
