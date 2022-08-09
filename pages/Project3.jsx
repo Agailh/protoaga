@@ -1,18 +1,18 @@
 import React from "react";
-import ProjP from "../public/Assets/Projects/proj_phaser.png";
+import ProjP from "../public/Assets/Projects/Project_3g.gif";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const Project1 = () => {
+const Project3 = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image className="absolute z-2" layout="fill" objectFit="cover" src={ProjP} alt="/" />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Feeding Frenzy and Hangman</h2>
-          <h3> Web Game / Javascript</h3>
+          <h2 className="py-2">Collision Mitigation App</h2>
+          <h3> Android Application /Object Detection / Java</h3>
         </div>
       </div>
 
@@ -35,13 +35,13 @@ const Project1 = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> HTML 5
+                <RiRadioButtonFill className="pr-1" /> Java
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Phaser Engine
+                <RiRadioButtonFill className="pr-1" /> Tensorflow
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
+                <RiRadioButtonFill className="pr-1" /> SSD Mobile Net V2
               </p>
             </div>
           </div>
@@ -54,4 +54,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default Project3;
