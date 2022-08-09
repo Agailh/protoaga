@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 function Main() {
@@ -30,11 +30,6 @@ function Main() {
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 crusor-pointer hover:scale-110 ease-in duration-300  ">
               <a href="https://www.instagram.com/aga_ilham86/">
                 <FaInstagram />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 crusor-pointer hover:scale-110 ease-in duration-300  ">
-              <a href="https://wa.me/089668899475">
-                <FaWhatsapp />
               </a>
             </div>
           </div>
