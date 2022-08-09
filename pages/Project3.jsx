@@ -12,7 +12,7 @@ const Project3 = () => {
         <Image className="absolute z-2" layout="fill" objectFit="cover" src={ProjP} alt="/" />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Collision Mitigation App</h2>
-          <h3> Android Application /Object Detection / Java</h3>
+          <h3> Android Application / Object Detection / Java</h3>
         </div>
       </div>
 
@@ -26,7 +26,7 @@ const Project3 = () => {
             provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque excepturi cumque temporibus, saepe iste officiis unde molestias deserunt illo harum itaque architecto deleniti ea laudantium alias! Eaque, recusandae
             minima!
           </p>
-          <a href="https://github.com/Agailh" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Agailh/Project_Collision-Mitigation-System_android" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
         </div>
@@ -42,6 +42,9 @@ const Project3 = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> SSD Mobile Net V2
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Open CV Library
               </p>
             </div>
           </div>
