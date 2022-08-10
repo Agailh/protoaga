@@ -11,11 +11,11 @@ import PhaserlIcn from "../../public/Assets/phaser.png";
 
 const Skills = () => {
   return (
-    <div id="skill" className="w-full lg:h-screen p-2">
+    <div id="skill" className="w-full lg:h-screen p-2 bg-gradient-to-b from-[#445269] to-cyan-500 ">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]">Skills</p>
-        <h2 className="py-4">What I Can Do</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <p className="text-xl tracking-widest uppercase text-gray-100">Skills</p>
+        <h2 className="py-4 text-gray-100">What I Can Do</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-gray-100">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gab-4 justify-center items-center">
               <div className="m-auto">

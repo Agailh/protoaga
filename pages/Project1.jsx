@@ -6,10 +6,10 @@ import Link from "next/link";
 
 const Project1 = () => {
   return (
-    <div className="w-full">
+    <div className="w-full ">
       <div className="w-screen h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
-        <Image className="absolute z-2" layout="fill" objectFit="cover" src={ProjP} alt="/" />
+        <Image className="absolute z-1" layout="fill" objectFit="cover" src={ProjP} alt="/" />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Feeding Frenzy and Hangman</h2>
           <h3> Web Game / Javascript</h3>
@@ -21,10 +21,9 @@ const Project1 = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti enim cum earum deserunt provident ipsam, cumque exercitationem repellendus, saepe vel quaerat aspernatur qui error quasi, quod consequatur delectus dolor. Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis repudiandae nisi placeat iusto officiis, illum obcaecati, tempora consectetur, sed eveniet corrupti tenetur eligendi cum et mollitia neque perferendis
-            provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque excepturi cumque temporibus, saepe iste officiis unde molestias deserunt illo harum itaque architecto deleniti ea laudantium alias! Eaque, recusandae
-            minima!
+            Web base game build with phaser engine, html5 and javascript. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus qui vel error soluta ab provident labore saepe, a excepturi recusandae voluptates accusantium
+            officiis adipisci illum fugiat praesentium, rem harum. Totam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consequatur nemo maiores a, tempore illo, impedit ducimus ipsa officia voluptatum necessitatibus
+            deserunt sunt, ea qui delectus soluta explicabo. Asperiores, temporibus.
           </p>
           <a href="https://github.com/Agailh" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>

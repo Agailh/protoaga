@@ -39,11 +39,11 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={Shadow ? "fixed w-full h-20 shadow-xl z-[1000]" : "fixed w-full h-20 z[100] "}>
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-[#ecf0f3]">
+    <div className={Shadow ? "fixed w-full h-20 shadow-xl z-[1000]" : "fixed w-full h-20 z[100]"}>
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image className="rounded-full" src={ProfilePic} alt="/" width="50" height="50" />
         <div>
-          <ul className="hidden md:flex">
+          <ul className="hidden md:flex text-gray-100">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:scale-110 ease-in duration-200">Home</li>
             </Link>
