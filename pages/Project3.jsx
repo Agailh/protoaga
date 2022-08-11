@@ -21,10 +21,8 @@ const Project3 = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti enim cum earum deserunt provident ipsam, cumque exercitationem repellendus, saepe vel quaerat aspernatur qui error quasi, quod consequatur delectus dolor. Eum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis repudiandae nisi placeat iusto officiis, illum obcaecati, tempora consectetur, sed eveniet corrupti tenetur eligendi cum et mollitia neque perferendis
-            provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque excepturi cumque temporibus, saepe iste officiis unde molestias deserunt illo harum itaque architecto deleniti ea laudantium alias! Eaque, recusandae
-            minima!
+            an object detection app for saftey driving purpose , this app recreate a saftey feature on car caled collision mitigation system. the purpose of the app is to serve every car owner that don&apos;t have this saftey feature and
+            keep the driver to mantain saftey distance to vehicle in front. This app was build with java , Tensorflow as object detection model and openCV as library.
           </p>
           <a href="https://github.com/Agailh/Project_Collision-Mitigation-System_android" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>

@@ -21,9 +21,7 @@ const Project1 = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Web base game build with phaser engine, html5 and javascript. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus qui vel error soluta ab provident labore saepe, a excepturi recusandae voluptates accusantium
-            officiis adipisci illum fugiat praesentium, rem harum. Totam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consequatur nemo maiores a, tempore illo, impedit ducimus ipsa officia voluptatum necessitatibus
-            deserunt sunt, ea qui delectus soluta explicabo. Asperiores, temporibus.
+            Web base game build with phaser engine, html5 and javascript. Hosted directly on gamelab educa studio website.Each project take 3 months to complete, These projects was created to complete the requirements for an internship.
           </p>
           <a href="https://github.com/Agailh" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
